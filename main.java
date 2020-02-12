@@ -23,7 +23,7 @@ class Calc
     
         i = (1 - r/100);
         a = p / Math.pow(i,t);
-        in = a - p;
+        in = a / p;
         
         System.out.println("Amount is " + a + " and Interest is " + in);
     }

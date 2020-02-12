@@ -21,9 +21,9 @@ class Calc
         System.out.println("Enter TIME");
         double t = obj.nextDouble();
     
-        i = (1 - r/100);
-        a = p / Math.pow(i,t);
-        in = a / p;
+        i = (1 + r/100);
+        a = p * Math.pow(i,t);
+        in = a - p;
         
         System.out.println("Amount is " + a + " and Interest is " + in);
     }
